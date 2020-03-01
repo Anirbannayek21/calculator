@@ -1,0 +1,8 @@
+function backspace() {
+  var input_var = document.getElementById('inputback');
+  var x = input_var.value;
+  if(x.length>0){
+    x= x.substring(0,x.length-1);
+    input_var.value = x;
+  }
+}
